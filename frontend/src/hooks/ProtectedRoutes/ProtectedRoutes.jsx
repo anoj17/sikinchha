@@ -1,4 +1,4 @@
-import { useAppSelector } from '../../store/store';
+import { useAppSelector } from '../../../store/store';
 import { Navigate } from 'react-router-dom';
 
 const Protected = ({ children }) => {

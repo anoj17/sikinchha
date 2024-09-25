@@ -1,7 +1,7 @@
 import { Box, Grid } from "@mui/material";
-import StaffLoginTemplate from "../src/components/templates/StaffLoginTemplate/StaffLoginTemplate";
-import FormTopSection from "../src/components/molecules/LoginTopSection/LoginTopSection";
-import Heading from "../src/components/atoms/Heading/Heading";
+import StaffLoginTemplate from "../components/templates/StaffLoginTemplate/StaffLoginTemplate";
+import FormTopSection from "../components/molecules/LoginTopSection/LoginTopSection";
+import Heading from "../components/atoms/Heading/Heading";
 import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles({
   container: {

@@ -1,7 +1,7 @@
 // src/CreateGeneral.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import CreateGenerall from "../src/components/templates/CreateGenerall/CreateGenerall";
+import CreateGenerall from "../components/templates/CreateGenerall/CreateGenerall";
 
 const CreateGeneral = () => {
   const [isAllowed, setIsAllowed] = useState(false);

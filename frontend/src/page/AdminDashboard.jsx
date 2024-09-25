@@ -169,7 +169,7 @@ import { PieChart } from "@mui/x-charts/PieChart";
 import { Container, Typography, Paper, Box } from "@mui/material";
 import StaffSidebar, {
   SidebarItem,
-} from "../src/components/templates/sidebar/Sidebar";
+} from "../components/templates/sidebar/Sidebar";
 import { FaHome } from "react-icons/fa";
 import { IoMdAdd } from "react-icons/io";
 import { TfiWrite } from "react-icons/tfi";

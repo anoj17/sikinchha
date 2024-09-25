@@ -5,12 +5,13 @@ import { useFormik } from "formik";
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
-import GenderSelect from "../src/components/molecules/GenderSelect/GenderSelect";
+import GenderSelect from "../components/molecules/GenderSelect/GenderSelect";
 import { Modal } from "@mui/material";
 import { useState } from "react";
-import { useAppDispatch, useAppSelector } from "../store/store";
+// import { useAppDispatch, useAppSelector } from "../store/store";
 import axios from "axios";
-import "../styles/AdminDashboard.css";
+import "../../styles/AdminDashboard.css";
+import { useAppDispatch, useAppSelector } from "../../store/store";
 
 const validationSchema = Yup.object({
   firstName: Yup.string().required("First name is required"),

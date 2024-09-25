@@ -1,7 +1,7 @@
 // src/ChatAI.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import ChatAII from "../src/components/templates/ChatAII/ChatAII";
+import ChatAII from "../components/templates/ChatAII/ChatAII";
 
 const ChatAI = () => {
   const [isAllowed, setIsAllowed] = useState(false);

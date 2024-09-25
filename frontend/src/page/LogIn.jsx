@@ -1,5 +1,5 @@
 import { Grid, Box } from "@mui/material";
-import Login from "../src/components/templates/Login/LoginTemplate";
+import Login from "../components/templates/Login/LoginTemplate";
 import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles({
   container: {

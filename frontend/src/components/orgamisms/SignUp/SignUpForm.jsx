@@ -6,7 +6,7 @@ import PhoneInputWrapper from "../../atoms/PhoneInput/PhoneInputWrapper";
 import {
   SIGN_UP_INITIAL_FORM_STATE,
   SIGN_UP_VALIDATION_SCHEMA,
-} from "../../../../hooks/Form/useFormValidation";
+} from "../../../hooks/Form/useFormValidation";
 import { SignUpRequest } from "../../../api/WithoutAuthToken/BeforeLoginRequest";
 import { useNavigate } from "react-router-dom";
 import { useMutation } from "@tanstack/react-query";

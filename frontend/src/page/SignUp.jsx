@@ -1,4 +1,4 @@
-import SignUpTemplate from "../src/components/templates/SignUp/SignUpTemplate";
+import SignUpTemplate from "../components/templates/SignUp/SignUpTemplate";
 import { makeStyles } from "@mui/styles";
 import { Box } from "@mui/material";
 // import { useAppSelector } from '../store/store';

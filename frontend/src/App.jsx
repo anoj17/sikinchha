@@ -1,27 +1,27 @@
 import LogIn from './page/LogIn.jsx'
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "../page/Dashboard";
-import Protected from "../hooks/ProtectedRoutes/ProtectedRoutes";
+import Dashboard from "./page/Dashboard";
+import Protected from "./hooks/ProtectedRoutes/ProtectedRoutes";
 import { ThemeProvider, createTheme } from "@mui/material";
-import AdminLogin from "../page/AdminLogin";
-import StaffLogin from "../page/StaffLogin";
-import SignUp from "../page/SignUp";
+import AdminLogin from "./page/AdminLogin";
+import StaffLogin from "./page/StaffLogin";
+import SignUp from "./page/SignUp";
 // import AdminDashboard from "../page/AdminDashboard";
 // import NewSideBar from "../src/components/templates/NewSidebar/NewSidebar"
-import UserDashboard from "../page/UserDashboard";
+import UserDashboard from "./page/UserDashboard";
 // import AddStaff from "../page/AdminDashboard2";
 // import UserQuestions from "../page/UserQuestions";
 // import UserQuestions from "../page/UserQuestions";
-import StaffDashboard from "../page/StaffDashboard";
+import StaffDashboard from "./page/StaffDashboard";
 import StaffAddSignal from "./components/templates/StaffAddSignal/StaffAddSignal";
 import StaffManageSignal from "./components/templates/StaffManageSignal/StaffManageSignal";
 import AdminManageChatIframe from "./components/templates/AdminManageChatIframe/AdminManageChatIframe";
 import StaffAddPrompt from "./components/templates/StaffAddPrompt/StaffAddPrompt.jsx";
 import StaffManagePrompt from "./components/templates/StaffManagePrompt/StaffManagePrompt";
-import AdminCreateStaff from "../page/AdminCreateStaff.jsx";
-import AdminDashboard from "../page/AdminDashboard.jsx";
-import ChatAI from "../page/ChatAI.jsx";
-import ChatGeneral from "../page/ChatGeneral.jsx";
+import AdminCreateStaff from "./page/AdminCreateStaff.jsx";
+import AdminDashboard from "./page/AdminDashboard.jsx";
+import ChatAI from "./page/ChatAI.jsx";
+import ChatGeneral from "./page/ChatGeneral.jsx";
 import AdminManageChat from "./components/templates/AdminManageChat/AdminManageChat.jsx";
 import AdminAddSignal from "./components/templates/AdminAddSignal/AdminAddSignal.jsx";
 import AdminManagePrompt from "./components/templates/AdminManagePrompt/AdminManagePrompt.jsx";
