@@ -33,7 +33,7 @@ import AdminManageContact from "./components/templates/AdminManageContact/AdminM
 import Chat from "./components/templates/Chat/Chat.jsx";
 import AdminSendBulkMessage from "./components/templates/AdminSendBulkMessage/AdminSendBulkMessage.jsx";
 import RTMS from "./components/templates/RTMS/RTMS.jsx";
-import Home from './page/Home.js';
+import Home from './page/Home.jsx';
 
 const theme = createTheme({
   palette: {
