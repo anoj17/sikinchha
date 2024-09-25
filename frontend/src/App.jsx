@@ -33,6 +33,7 @@ import AdminManageContact from "./components/templates/AdminManageContact/AdminM
 import Chat from "./components/templates/Chat/Chat.jsx";
 import AdminSendBulkMessage from "./components/templates/AdminSendBulkMessage/AdminSendBulkMessage.jsx";
 import RTMS from "./components/templates/RTMS/RTMS.jsx";
+import Home from './page/Home.js';
 
 const theme = createTheme({
   palette: {
@@ -59,6 +60,7 @@ const App = () => {
         <Route path="/staff/dashboard" element={<StaffDashboard />}></Route>
         <Route path="/admin/dashboard" element={<AdminDashboard />}></Route>
         <Route path="/chatai" element={<ChatAI />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/chatgeneral" element={<ChatGeneral />}></Route>
         <Route
           path="/staff/dashboard/createsignal"
