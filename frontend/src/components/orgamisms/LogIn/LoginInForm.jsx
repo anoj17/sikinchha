@@ -15,8 +15,8 @@ import {
 } from "../../../../hooks/Form/useFormValidation";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { useAppDispatch, useAppSelector } from "../../../../store/store";
-import { UserLoginRequest } from "../../../../api/WithoutAuthToken/BeforeLoginRequest";
-import { fetchLoggedInUserInfo } from "../../../../api/Query/FetchLoggedInUserInfo";
+import { UserLoginRequest } from "../../../api/WithoutAuthToken/BeforeLoginRequest";
+import { fetchLoggedInUserInfo } from "../../../api/Query/FetchLoggedInUserInfo";
 import { setCurrentUser } from "../../../../store/slices/currentLoggedInUserSlice";
 import { isAxiosError } from "axios";
 import { useEffect, useState } from "react";

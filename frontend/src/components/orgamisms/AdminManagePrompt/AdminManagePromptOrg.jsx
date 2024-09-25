@@ -12,7 +12,7 @@ import {
   approvePrompt,
   rejectPrompt,
   getPrompt,
-} from "../../../../api/Query/promptQueries";
+} from "../../../api/Query/promptQueries";
 
 const AdminManagePromptOrg = () => {
   console.log("Inside of Admin Manage prompt");

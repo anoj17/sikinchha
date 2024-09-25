@@ -16,12 +16,12 @@ import {
 } from "../../../../hooks/Form/useFormValidation";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { useAppDispatch, useAppSelector } from "../../../../store/store";
-import { StaffLoginRequest } from "../../../../api/WithoutAuthToken/BeforeLoginRequest";
+import { StaffLoginRequest } from "../../../api/WithoutAuthToken/BeforeLoginRequest";
 import { isAxiosError } from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { setCurrentUser } from "../../../../store/slices/currentLoggedInUserSlice";
-import { fetchLoggedInUserInfo } from "../../../../api/Query/FetchLoggedInUserInfo";
+import { fetchLoggedInUserInfo } from "../../../api/Query/FetchLoggedInUserInfo";
 
 const StaffLoginTemplate = () => {
   const accessToken = useAppSelector(

@@ -10,7 +10,7 @@ import {
   deletePrompt,
   editPrompt,
   getPrompt,
-} from "../../../../api/Query/promptQueries";
+} from "../../../api/Query/promptQueries";
 
 const ManagePrompt = () => {
   const accessToken = useAppSelector(

@@ -10,7 +10,7 @@ import {
   deleteSignal,
   editSignal,
   getSignal,
-} from "../../../../api/Query/SignalQueries";
+} from "../../../api/Query/SignalQueries";
 
 const ManageSignal = () => {
   const accessToken = useAppSelector(
