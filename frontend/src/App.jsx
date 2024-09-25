@@ -1,4 +1,4 @@
-import LogIn from "../page/LogIn";
+import LogIn from './page/LogIn.jsx'
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "../page/Dashboard";
 import Protected from "../hooks/ProtectedRoutes/ProtectedRoutes";
